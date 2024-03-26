@@ -1,38 +1,47 @@
-# Portfolio Starter Kit
+# Neil McClelland - Front-End Developer Portfolio
 
-This portfolio is built with **Next.js** and a library called [Nextra](https://nextra.vercel.app/). It allows you to write Markdown and focus on the _content_ of your portfolio. This starter includes:
+Welcome to the source code of my personal portfolio website! This project showcases my skills and projects as a Front-End Developer. It's built with modern web technologies and designed with responsiveness and accessibility in mind.
 
-- Automatically configured to handle Markdown/MDX
-- Generates an RSS feed based on your posts
-- A beautiful theme included out of the box
-- Easily categorize posts with tags
-- Fast, optimized web font loading
+## Live Website
 
-https://demo.vercel.blog
+Check out the live version here: [https://blog-neil.vercel.app/](https://blog-neil.vercel.app/)
 
-## Configuration
+## Features
 
-1. Update your name in `theme.config.js` or change the footer.
-1. Update your name and site URL for the RSS feed in `scripts/gen-rss.js`.
-1. Update the meta tags in `pages/_document.tsx`.
-1. Update the posts inside `pages/posts/*.md` with your own content.
+- **Responsive Design:** Looks great on both desktop and mobile devices.
+- **Project Showcase:** Detailed case studies of my most significant projects.
+- **Blog:** A simple blog to document my thoughts.
+- **Contact Form:** A simple way for potential clients or employers to reach out to me.
 
-## Deploy your own
+## Technologies Used
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog)
+- **HTML5**
+- **CSS3 (with SCSS)**
+- **JavaScript (ES6+)**
+- **Next.js**
+- **Node.js** for backend APIs (if applicable)
+- **Webpack** for bundling
+- **Git** for version control
+- **Vercel** for deployment
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog&project-name=portfolio&repository-name=portfolio)
+## Setup and Installation
 
-## How to use
+To get a local copy up and running, follow these simple steps.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+1. Clone the repo
+   ```sh
+   git clone https://github.com/neil-mcc/blog
+   
+2. Navigate to the project directory
+   ```sh
+   cd your-portfolio-repo
 
-```bash
-npx create-next-app --example blog my-blog
-# or
-yarn create next-app --example blog my-blog
-# or
-pnpm create next-app --example blog my-blog
-```
+3. Install NPM packages
+   ```sh
+   npm install
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+4. Start the development server
+   ```sh
+   npm start
+   
+Your site should now be running on http://localhost:3000.
